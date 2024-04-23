@@ -1,0 +1,86 @@
+{
+    "binFileName": "MseLoss_e5b38527ad0231aea944dc0da4441869",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "coreType": "VectorCore",
+    "core_type": "AIV",
+    "kernelName": "MseLoss_e5b38527ad0231aea944dc0da4441869",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 64,
+    "parameters": [],
+    "sha256": "bdf4c13f1a38c5160d585b979a0ed9e1e06cef3f9d6abdcd3188b415243e58b0",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    },
+    "kernelList": [
+        {
+            "kernelName": "MseLoss_e5b38527ad0231aea944dc0da4441869_1"
+        },
+        {
+            "kernelName": "MseLoss_e5b38527ad0231aea944dc0da4441869_2"
+        }
+    ],
+    "optionalInputMode": "gen_placeholder",
+    "compileInfo": {},
+    "supportInfo": {
+        "implMode": "",
+        "int64Mode": false,
+        "simplifiedKeyMode": 0,
+        "simplifiedKey": [
+            "MseLoss/d=0,p=0/1,2/1,2/1,2",
+            "MseLoss/d=1,p=0/1,2/1,2/1,2"
+        ],
+        "staticKey": "1cf7a132eadca857cf412c83bc0409f2782b47aa181dbe4b23d2f5c34147faa2",
+        "inputs": [
+            {
+                "name": "x",
+                "index": 0,
+                "dtype": "float16",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "y",
+                "index": 1,
+                "dtype": "float16",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "name": "out",
+                "index": 0,
+                "dtype": "float16",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "attrs": [
+            {
+                "name": "reduction",
+                "dtype": "str",
+                "value": ""
+            }
+        ],
+        "opMode": "dynamic",
+        "optionalInputMode": "gen_placeholder",
+        "deterministic": "ignore"
+    }
+}

@@ -1,0 +1,128 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "MseLossGrad/d=0,p=0/1,2/1,2/1,2/1,2",
+        "MseLossGrad/d=1,p=0/1,2/1,2/1,2/1,2"
+      ],
+      "staticKey": "90453d408f531fee4f1398a0fccc70bd9549a964f7c2e8400c0752f942996ded",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "predict",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "label",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x",
+          "index": 2,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "reduction",
+          "dtype": "str",
+          "value": ""
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/mse_loss_grad/MseLossGrad_d39922bbcdd33a94de9015ce72213c34.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "MseLossGrad/d=0,p=0/0,2/0,2/0,2/0,2",
+        "MseLossGrad/d=1,p=0/0,2/0,2/0,2/0,2"
+      ],
+      "staticKey": "9d9d5162655febde50666c41af340689dbd386fb783cc8ab7125e625a0563ebe",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "predict",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "label",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x",
+          "index": 2,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "reduction",
+          "dtype": "str",
+          "value": ""
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/mse_loss_grad/MseLossGrad_78c72dcc185ea1bc91b2ae1453325324.json"
+      }
+    }
+  ]
+}

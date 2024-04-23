@@ -1,0 +1,9 @@
+/home/wanghs/example/samples/operator/MseLoss/KernelLaunch/MseLossKernelInvocation/build/CMakeFiles/edit_cache.dir
+/home/wanghs/example/samples/operator/MseLoss/KernelLaunch/MseLossKernelInvocation/build/CMakeFiles/rebuild_cache.dir
+/home/wanghs/example/samples/operator/MseLoss/KernelLaunch/MseLossKernelInvocation/build/cmake/cpu/CMakeFiles/addcdiv_custom_cpu.dir
+/home/wanghs/example/samples/operator/MseLoss/KernelLaunch/MseLossKernelInvocation/build/cmake/cpu/CMakeFiles/edit_cache.dir
+/home/wanghs/example/samples/operator/MseLoss/KernelLaunch/MseLossKernelInvocation/build/cmake/cpu/CMakeFiles/rebuild_cache.dir
+/home/wanghs/example/samples/operator/MseLoss/KernelLaunch/MseLossKernelInvocation/build/cmake/npu/CMakeFiles/addcdiv_custom_npu.dir
+/home/wanghs/example/samples/operator/MseLoss/KernelLaunch/MseLossKernelInvocation/build/cmake/npu/CMakeFiles/addcdiv_custom_sim.dir
+/home/wanghs/example/samples/operator/MseLoss/KernelLaunch/MseLossKernelInvocation/build/cmake/npu/CMakeFiles/edit_cache.dir
+/home/wanghs/example/samples/operator/MseLoss/KernelLaunch/MseLossKernelInvocation/build/cmake/npu/CMakeFiles/rebuild_cache.dir

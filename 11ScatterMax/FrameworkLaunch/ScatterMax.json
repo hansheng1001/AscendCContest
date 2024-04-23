@@ -1,0 +1,82 @@
+[
+    {
+        "op": "ScatterMax",
+        "language": "cpp",
+        "input_desc": [
+            {
+                "name": "x",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND",
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "fp16",
+                    "fp32",
+                    "int32",
+                    "int8"
+                ]
+            },
+            {
+                "name": "index",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND",
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "int32",
+                    "int32",
+                    "int32",
+                    "int32"
+                ]
+            },
+            {
+                "name": "update",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND",
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "fp16",
+                    "fp32",
+                    "int32",
+                    "int8"
+                ]
+            }
+        ],
+        "output_desc": [
+            {
+                "name": "x",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND",
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "fp16",
+                    "fp32",
+                    "int32",
+                    "int8"
+                ]
+            }
+        ],
+        "attr": [
+            {
+                "name": "use_locking",
+                "param_type": "optional",
+                "type": "bool",
+                "default_value": "false"
+            }
+        ]
+    }
+]

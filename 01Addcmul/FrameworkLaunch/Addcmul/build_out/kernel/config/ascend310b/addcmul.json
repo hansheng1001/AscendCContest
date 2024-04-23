@@ -1,0 +1,264 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "Addcmul/d=0,p=0/2,2/2,2/2,2/2,2/2,2",
+        "Addcmul/d=1,p=0/2,2/2,2/2,2/2,2/2,2"
+      ],
+      "staticKey": "7205799f302cfc2524b0a41e7960367418ce9bf0ab7f5e94efbdffeb7c77cd0b",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "value",
+          "index": 0,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "input_data",
+          "index": 1,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x1",
+          "index": 2,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 3,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/addcmul/Addcmul_dd587f89b625b83c07995f10ef928018.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "Addcmul/d=0,p=0/3,2/3,2/3,2/3,2/3,2",
+        "Addcmul/d=1,p=0/3,2/3,2/3,2/3,2/3,2"
+      ],
+      "staticKey": "46af7e371c15de126e2f22e8fafc1ee55e68a650edc40d8aeb1cb280deb4240a",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "value",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "input_data",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x1",
+          "index": 2,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 3,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/addcmul/Addcmul_7157af633bbaad2480411be98374ca25.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "Addcmul/d=0,p=0/1,2/1,2/1,2/1,2/1,2",
+        "Addcmul/d=1,p=0/1,2/1,2/1,2/1,2/1,2"
+      ],
+      "staticKey": "5a9f38ad0c5367ff02592fdfc5068b3c7b794467670665b64907a636578f5547",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "value",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "input_data",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x1",
+          "index": 2,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 3,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/addcmul/Addcmul_d4924343902e5611d61aed05dfc2d663.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "Addcmul/d=0,p=0/0,2/0,2/0,2/0,2/0,2",
+        "Addcmul/d=1,p=0/0,2/0,2/0,2/0,2/0,2"
+      ],
+      "staticKey": "75c11a58645c42985850b02967f1d9daf840f0a97bcb87e822328b2f8b84ef32",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "value",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "input_data",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x1",
+          "index": 2,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 3,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/addcmul/Addcmul_db66f24816f2050898b51af965b29955.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+/home/wanghs/example/samples/operator/ScatterSub/FrameworkLaunch/ScatterSubTest/build/CMakeFiles/execute_op.dir
+/home/wanghs/example/samples/operator/ScatterSub/FrameworkLaunch/ScatterSubTest/build/CMakeFiles/edit_cache.dir
+/home/wanghs/example/samples/operator/ScatterSub/FrameworkLaunch/ScatterSubTest/build/CMakeFiles/rebuild_cache.dir
+/home/wanghs/example/samples/operator/ScatterSub/FrameworkLaunch/ScatterSubTest/build/CMakeFiles/list_install_components.dir
+/home/wanghs/example/samples/operator/ScatterSub/FrameworkLaunch/ScatterSubTest/build/CMakeFiles/install.dir
+/home/wanghs/example/samples/operator/ScatterSub/FrameworkLaunch/ScatterSubTest/build/CMakeFiles/install/local.dir
+/home/wanghs/example/samples/operator/ScatterSub/FrameworkLaunch/ScatterSubTest/build/CMakeFiles/install/strip.dir

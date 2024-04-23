@@ -1,0 +1,54 @@
+[
+    {
+        "op": "MseLoss",
+        "language": "cpp",
+        "input_desc": [
+            {
+                "name": "x",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "fp16",
+                    "fp32"
+                ]
+            },
+            {
+                "name": "y",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "fp16",
+                    "fp32"
+                ]
+            }
+        ],
+        "output_desc": [
+            {
+                "name": "out",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "fp16",
+                    "fp32"
+                ]
+            }
+        ],
+        "attr": [
+            {
+                "name": "reduction",
+                "param_type": "optional",
+                "type": "string",
+                "default_value": "mean"
+            }
+        ]
+    }
+]

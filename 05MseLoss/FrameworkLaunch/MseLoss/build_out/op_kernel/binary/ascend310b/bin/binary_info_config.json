@@ -1,0 +1,28 @@
+{
+  "MseLoss": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "MseLoss/d=0,p=0/0,2/0,2/0,2",
+        "binPath": "ascend310b/mse_loss/MseLoss_05a36be398e212d6676104a581c40556.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "MseLoss/d=1,p=0/0,2/0,2/0,2",
+        "binPath": "ascend310b/mse_loss/MseLoss_05a36be398e212d6676104a581c40556.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "MseLoss/d=0,p=0/1,2/1,2/1,2",
+        "binPath": "ascend310b/mse_loss/MseLoss_e5b38527ad0231aea944dc0da4441869.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "MseLoss/d=1,p=0/1,2/1,2/1,2",
+        "binPath": "ascend310b/mse_loss/MseLoss_e5b38527ad0231aea944dc0da4441869.o"
+      }
+    ]
+  }
+}

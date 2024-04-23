@@ -1,0 +1,48 @@
+{
+  "Addcmul": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "Addcmul/d=0,p=0/2,2/2,2/2,2/2,2/2,2",
+        "binPath": "ascend310b/addcmul/Addcmul_dd587f89b625b83c07995f10ef928018.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Addcmul/d=1,p=0/2,2/2,2/2,2/2,2/2,2",
+        "binPath": "ascend310b/addcmul/Addcmul_dd587f89b625b83c07995f10ef928018.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Addcmul/d=0,p=0/3,2/3,2/3,2/3,2/3,2",
+        "binPath": "ascend310b/addcmul/Addcmul_7157af633bbaad2480411be98374ca25.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Addcmul/d=1,p=0/3,2/3,2/3,2/3,2/3,2",
+        "binPath": "ascend310b/addcmul/Addcmul_7157af633bbaad2480411be98374ca25.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Addcmul/d=0,p=0/1,2/1,2/1,2/1,2/1,2",
+        "binPath": "ascend310b/addcmul/Addcmul_d4924343902e5611d61aed05dfc2d663.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Addcmul/d=1,p=0/1,2/1,2/1,2/1,2/1,2",
+        "binPath": "ascend310b/addcmul/Addcmul_d4924343902e5611d61aed05dfc2d663.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Addcmul/d=0,p=0/0,2/0,2/0,2/0,2/0,2",
+        "binPath": "ascend310b/addcmul/Addcmul_db66f24816f2050898b51af965b29955.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Addcmul/d=1,p=0/0,2/0,2/0,2/0,2/0,2",
+        "binPath": "ascend310b/addcmul/Addcmul_db66f24816f2050898b51af965b29955.o"
+      }
+    ]
+  }
+}

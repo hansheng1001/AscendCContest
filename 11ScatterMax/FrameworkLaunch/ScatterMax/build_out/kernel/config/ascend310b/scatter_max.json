@@ -1,0 +1,252 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "ScatterMax/d=0,p=0/2,2/3,2/2,2/2,2",
+        "ScatterMax/d=1,p=0/2,2/3,2/2,2/2,2"
+      ],
+      "staticKey": "51939bbe1e4edc5e535a7875a2990931ce6f04ad75aee511b29e0a6ad25edf7b",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "index",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "update",
+          "index": 2,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "use_locking",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/scatter_max/ScatterMax_3d7d911d8cfad3e2c32c6677327ba759.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "ScatterMax/d=0,p=0/3,2/3,2/3,2/3,2",
+        "ScatterMax/d=1,p=0/3,2/3,2/3,2/3,2"
+      ],
+      "staticKey": "0f9a560ccae85cdfc339467f8c2d12fb41ef45b32d26d111630a32d0b241fe7f",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "index",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "update",
+          "index": 2,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "use_locking",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/scatter_max/ScatterMax_e3bce227480555e6e9f5aebacd1234c6.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "ScatterMax/d=0,p=0/1,2/3,2/1,2/1,2",
+        "ScatterMax/d=1,p=0/1,2/3,2/1,2/1,2"
+      ],
+      "staticKey": "ed2e644dcea8f1a41db339a448c705390f8543818ca7d9361737f4060498732a",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "index",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "update",
+          "index": 2,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "use_locking",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/scatter_max/ScatterMax_8056299968bda2315ce2274c56a60a04.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "ScatterMax/d=0,p=0/0,2/3,2/0,2/0,2",
+        "ScatterMax/d=1,p=0/0,2/3,2/0,2/0,2"
+      ],
+      "staticKey": "4ea8a214224d4c5a131e14c2440ddb1e32422c62c24d2b10cdb6c1c6c05c2741",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "index",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "update",
+          "index": 2,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "use_locking",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/scatter_max/ScatterMax_604faeb8c553d7941c7b9a2659004714.json"
+      }
+    }
+  ]
+}

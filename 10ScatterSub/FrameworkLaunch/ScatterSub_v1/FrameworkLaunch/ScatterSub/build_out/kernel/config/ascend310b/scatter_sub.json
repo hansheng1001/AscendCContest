@@ -1,0 +1,208 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "ScatterSub/d=0,p=0/0,2/3,2/0,2",
+        "ScatterSub/d=1,p=0/0,2/3,2/0,2"
+      ],
+      "staticKey": "2b763d3aca453a00e9f5f32b971c8f49909098d0fbee14adcc98d656ed77250b",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "index",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "update",
+          "index": 2,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [],
+      "attrs": [
+        {
+          "name": "use_locking",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/scatter_sub/ScatterSub_796d34826846420f32b0af70fa9b1338.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "ScatterSub/d=0,p=0/2,2/3,2/2,2",
+        "ScatterSub/d=1,p=0/2,2/3,2/2,2"
+      ],
+      "staticKey": "b01ea35e14a54bb229bbaa5e96328b5af12b9a1676aa3db12472cfdb9cc4d1a4",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "index",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "update",
+          "index": 2,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [],
+      "attrs": [
+        {
+          "name": "use_locking",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/scatter_sub/ScatterSub_7564ceb25b09520d7248a455c437355f.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "ScatterSub/d=0,p=0/1,2/3,2/1,2",
+        "ScatterSub/d=1,p=0/1,2/3,2/1,2"
+      ],
+      "staticKey": "8e4687ae1a2056305fff0f98e3a1078056387ecfc3f001dd5044a5abeb809398",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "index",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "update",
+          "index": 2,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [],
+      "attrs": [
+        {
+          "name": "use_locking",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/scatter_sub/ScatterSub_a7322a0f4454573b5c5f493ab1132b53.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "ScatterSub/d=0,p=0/3,2/3,2/3,2",
+        "ScatterSub/d=1,p=0/3,2/3,2/3,2"
+      ],
+      "staticKey": "3c54812d2a42a640c172bc62296a606d5a3fb3f7aa3bf320a2ac096bdb66d3c5",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "index",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "update",
+          "index": 2,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [],
+      "attrs": [
+        {
+          "name": "use_locking",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/scatter_sub/ScatterSub_136ebf418250c2a7f523fa2112b3ba43.json"
+      }
+    }
+  ]
+}

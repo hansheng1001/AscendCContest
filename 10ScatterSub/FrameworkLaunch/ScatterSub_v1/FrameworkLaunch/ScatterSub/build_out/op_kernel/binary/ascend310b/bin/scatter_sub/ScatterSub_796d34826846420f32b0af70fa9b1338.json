@@ -1,0 +1,85 @@
+{
+    "binFileName": "ScatterSub_796d34826846420f32b0af70fa9b1338",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "coreType": "VectorCore",
+    "core_type": "AIV",
+    "kernelName": "ScatterSub_796d34826846420f32b0af70fa9b1338",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 72,
+    "parameters": [],
+    "sha256": "8c2b4f323ef502de69aeb269ee139a160e5cb853aac7482a24058a63fc6c38f1",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    },
+    "kernelList": [
+        {
+            "kernelName": "ScatterSub_796d34826846420f32b0af70fa9b1338_1"
+        },
+        {
+            "kernelName": "ScatterSub_796d34826846420f32b0af70fa9b1338_2"
+        }
+    ],
+    "optionalInputMode": "gen_placeholder",
+    "compileInfo": {},
+    "supportInfo": {
+        "implMode": "",
+        "int64Mode": false,
+        "simplifiedKeyMode": 0,
+        "simplifiedKey": [
+            "ScatterSub/d=0,p=0/0,2/3,2/0,2",
+            "ScatterSub/d=1,p=0/0,2/3,2/0,2"
+        ],
+        "staticKey": "2b763d3aca453a00e9f5f32b971c8f49909098d0fbee14adcc98d656ed77250b",
+        "inputs": [
+            {
+                "name": "x",
+                "index": 0,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "index",
+                "index": 1,
+                "dtype": "int32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "update",
+                "index": 2,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "outputs": [],
+        "attrs": [
+            {
+                "name": "use_locking",
+                "dtype": "bool",
+                "value": false
+            }
+        ],
+        "opMode": "dynamic",
+        "optionalInputMode": "gen_placeholder",
+        "deterministic": "ignore"
+    }
+}

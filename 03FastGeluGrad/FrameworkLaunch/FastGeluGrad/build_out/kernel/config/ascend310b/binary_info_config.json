@@ -1,0 +1,28 @@
+{
+  "FastGeluGrad": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "FastGeluGrad/d=0,p=0/1,2/1,2/1,2",
+        "binPath": "ascend310b/fast_gelu_grad/FastGeluGrad_1be32c52415bb5be058a7feb0505a8ed.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "FastGeluGrad/d=1,p=0/1,2/1,2/1,2",
+        "binPath": "ascend310b/fast_gelu_grad/FastGeluGrad_1be32c52415bb5be058a7feb0505a8ed.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "FastGeluGrad/d=0,p=0/0,2/0,2/0,2",
+        "binPath": "ascend310b/fast_gelu_grad/FastGeluGrad_1faee25121f0603c567cd8b30eaab4a2.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "FastGeluGrad/d=1,p=0/0,2/0,2/0,2",
+        "binPath": "ascend310b/fast_gelu_grad/FastGeluGrad_1faee25121f0603c567cd8b30eaab4a2.o"
+      }
+    ]
+  }
+}

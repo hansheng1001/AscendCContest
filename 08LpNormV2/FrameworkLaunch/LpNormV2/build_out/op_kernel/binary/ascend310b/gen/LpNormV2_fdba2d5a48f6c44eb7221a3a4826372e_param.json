@@ -1,0 +1,54 @@
+{
+  "op_type": "LpNormV2",
+  "op_list": [
+    {
+      "bin_filename": "LpNormV2_fdba2d5a48f6c44eb7221a3a4826372e",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "p",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "axes",
+          "dtype": "list_int",
+          "value": []
+        },
+        {
+          "name": "keepdim",
+          "dtype": "bool",
+          "value": false
+        },
+        {
+          "name": "epsilon",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ]
+    }
+  ]
+}

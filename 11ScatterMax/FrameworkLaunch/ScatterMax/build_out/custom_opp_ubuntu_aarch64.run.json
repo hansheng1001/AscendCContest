@@ -1,0 +1,26 @@
+{
+  "componentGroups" : {},
+  "components" : {},
+  "errorOnAbsoluteInstallDestination" : false,
+  "formatVersionMajor" : 1,
+  "formatVersionMinor" : 0,
+  "installationTypes" : {},
+  "packageDescriptionFile" : "/usr/share/cmake-3.22/Templates/CPack.GenericDescription.txt",
+  "packageDescriptionSummary" : "CPack opp project",
+  "packageName" : "opp",
+  "packageVersion" : "0.1.1",
+  "projects" : 
+  [
+    {
+      "component" : "ALL",
+      "components" : [],
+      "directory" : "/home/wanghs/example/samples/operator/ScatterMax/FrameworkLaunch/ScatterMax/build_out",
+      "installationTypes" : [],
+      "projectName" : "opp",
+      "subDirectory" : "/"
+    }
+  ],
+  "setDestdir" : false,
+  "stripFiles" : false,
+  "warnOnAbsoluteInstallDestination" : false
+}

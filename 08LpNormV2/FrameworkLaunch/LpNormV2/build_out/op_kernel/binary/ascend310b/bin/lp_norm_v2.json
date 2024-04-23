@@ -1,0 +1,118 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "LpNormV2/d=0,p=0/1,2/1,2",
+        "LpNormV2/d=1,p=0/1,2/1,2"
+      ],
+      "staticKey": "2a7744b75861bf2ba9fa7fe71322f9859420f933acfb3cab34ff647a84f8a066",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "p",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "axes",
+          "dtype": "list_int",
+          "value": []
+        },
+        {
+          "name": "keepdim",
+          "dtype": "bool",
+          "value": false
+        },
+        {
+          "name": "epsilon",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/lp_norm_v2/LpNormV2_21726fe1ea06b195906a669d751e728c.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "LpNormV2/d=0,p=0/0,2/0,2",
+        "LpNormV2/d=1,p=0/0,2/0,2"
+      ],
+      "staticKey": "4c41888abb3edd93db68cf12bc061ffbae29926dfdded64cba23e38e06b6dab9",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "p",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "axes",
+          "dtype": "list_int",
+          "value": []
+        },
+        {
+          "name": "keepdim",
+          "dtype": "bool",
+          "value": false
+        },
+        {
+          "name": "epsilon",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/lp_norm_v2/LpNormV2_fdba2d5a48f6c44eb7221a3a4826372e.json"
+      }
+    }
+  ]
+}

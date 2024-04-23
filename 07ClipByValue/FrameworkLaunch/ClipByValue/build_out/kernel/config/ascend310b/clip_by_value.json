@@ -1,0 +1,169 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "ClipByValue/d=0,p=0/3,2/3,2/3,2/3,2",
+        "ClipByValue/d=1,p=0/3,2/3,2/3,2/3,2"
+      ],
+      "staticKey": "4b6355d4ca4212090640f5fc7db236a7278c9e8efb1019a0ca1dcd5d9243db08",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "minv",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "maxv",
+          "index": 2,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/clip_by_value/ClipByValue_f8e3faca955f5d8208ed69ab17bcd785.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "ClipByValue/d=0,p=0/0,2/0,2/0,2/0,2",
+        "ClipByValue/d=1,p=0/0,2/0,2/0,2/0,2"
+      ],
+      "staticKey": "10ece6b820443a55859e93e431b9869965527700534b902d054c8d6c436c9db4",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "minv",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "maxv",
+          "index": 2,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/clip_by_value/ClipByValue_729872a2a3cbd9f8202d2e9568550287.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "ClipByValue/d=0,p=0/1,2/1,2/1,2/1,2",
+        "ClipByValue/d=1,p=0/1,2/1,2/1,2/1,2"
+      ],
+      "staticKey": "f43dcf857ee48ae11387644d1717d8b737e9604ac48eb661601db1e572bea414",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "minv",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "maxv",
+          "index": 2,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/clip_by_value/ClipByValue_c4d0e8d1e56772f2daa03aa3d1c21ca2.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - MemUsageAnalysis process data finished, execute time is 0.008 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - CpuUsageAnalysis process data finished, execute time is 0.016 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - DiskUsageAnalysis process data finished, execute time is 0.029 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - NetworkUsageAnalysis process data finished, execute time is 0.023 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - HostSyscallAnalysis process data finished, execute time is 0.020 s
+2024-04-22 02:05:33 [INFO] [collection_engine.py:84] - Database process finished.
+2024-04-22 02:05:33 [INFO] [collection_engine.py:85] - Analysis finished.
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - GeLogicStreamParser process data finished, execute time is 0.021 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - L2CacheParser process data finished, execute time is 0.016 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - ParsingRuntimeData process data finished, execute time is 0.037 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - ParsingCtrlCPUData process data finished, execute time is 0.021 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - ParsingNicData process data finished, execute time is 0.040 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - ParsingCpuUsageData process data finished, execute time is 0.041 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - ParsingDDRData process data finished, execute time is 0.084 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - ParsingPeripheralData process data finished, execute time is 0.082 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - NonMiniLLCParser process data finished, execute time is 0.037 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - ParsingAICPUData process data finished, execute time is 0.072 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - ParsingFftsAICoreSampleData process data finished, execute time is 0.048 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - ParsingTSData process data finished, execute time is 0.100 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - MsprofTxParser process data finished, execute time is 0.063 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - ParsingMemoryData process data finished, execute time is 0.074 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - ParsingHBMData process data finished, execute time is 0.092 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - SocProfilerParser process data finished, execute time is 0.064 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - BiuPerfParser process data finished, execute time is 0.061 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - NpuMemParser process data finished, execute time is 0.046 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - NpuModuleMemParser process data finished, execute time is 0.040 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - NpuOpMemParser process data finished, execute time is 0.023 s
+2024-04-22 02:05:33 [INFO] [hash_dic_parser.py:42] - start parsing hash data file: unaging.additional.hash_dic.slice_0
+2024-04-22 02:05:33 [INFO] [hash_dic_parser.py:42] - start parsing hash data file: unaging.additional.type_info_dic.slice_0
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - HashDicParser process data finished, execute time is 0.143 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - MemcpyInfoParser process data finished, execute time is 0.020 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - HcclInfoParser process data finished, execute time is 0.024 s
+2024-04-22 02:05:33 [INFO] [task_track_parser.py:113] - start parsing task track data, files: ['aging.compact.task_track.slice_0']
+2024-04-22 02:05:33 [INFO] [data_parser.py:110] - start to process the file: aging.compact.task_track.slice_0
+2024-04-22 02:05:33 [INFO] [api_event_parser.py:53] - start parsing api_event data file: aging.api_event.data.slice_0
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - FusionAddInfoParser process data finished, execute time is 0.018 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - MultiThreadParser process data finished, execute time is 0.064 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - GraphAddInfoParser process data finished, execute time is 0.047 s
+2024-04-22 02:05:33 [INFO] [data_parser.py:110] - start to process the file: aging.additional.tensor_info.slice_0
+2024-04-22 02:05:33 [INFO] [data_parser.py:110] - start to process the file: aging.compact.node_basic_info.slice_0
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - MemoryApplicationParser process data finished, execute time is 0.048 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - CtxIdParser process data finished, execute time is 0.051 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - TaskTrackParser process data finished, execute time is 0.183 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - ApiEventParser process data finished, execute time is 0.187 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - TensorAddInfoParser process data finished, execute time is 0.176 s
+2024-04-22 02:05:33 [INFO] [ms_multi_process.py:51] - NodeBasicInfoParser process data finished, execute time is 0.158 s
+2024-04-22 02:05:33 [WARNING] [base_model.py:59] - Failed to connect database, please check database of step_trace. 
+2024-04-22 02:05:34 [INFO] [ms_multi_process.py:51] - AicpuBinDataParser process data finished, execute time is 0.020 s
+2024-04-22 02:05:34 [INFO] [cann_calculator.py:66] - start to analysis cann software callstack
+2024-04-22 02:05:34 [INFO] [ms_multi_process.py:51] - AicpuAddInfoParser process data finished, execute time is 0.030 s
+2024-04-22 02:05:34 [INFO] [cann_analysis_chain.py:50] - Finish build event tree for thread 494978
+2024-04-22 02:05:34 [INFO] [ms_multi_process.py:51] - CANNCalculator process data finished, execute time is 0.209 s
+2024-04-22 02:05:34 [INFO] [ms_multi_process.py:51] - NpuOpMemCalculator process data finished, execute time is 0.008 s
+2024-04-22 02:05:34 [INFO] [ms_multi_process.py:51] - TorchAclRelationCalculator process data finished, execute time is 0.008 s
+2024-04-22 02:05:34 [INFO] [ms_multi_process.py:51] - TorchNpuRelationCalculator process data finished, execute time is 0.008 s
+2024-04-22 02:05:36 [INFO] [ms_multi_process.py:51] - NpuOpMemCalculator process data finished, execute time is 0.008 s
+2024-04-22 02:05:36 [INFO] [ms_multi_process.py:51] - TorchAclRelationCalculator process data finished, execute time is 0.008 s
+2024-04-22 02:05:36 [INFO] [ms_multi_process.py:51] - TorchNpuRelationCalculator process data finished, execute time is 0.008 s

@@ -1,0 +1,28 @@
+{
+  "FastGelu": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "FastGelu/d=0,p=0/1,2/1,2",
+        "binPath": "ascend310b/fast_gelu/FastGelu_5df0e856755d845700f1868cb808b5ba.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "FastGelu/d=1,p=0/1,2/1,2",
+        "binPath": "ascend310b/fast_gelu/FastGelu_5df0e856755d845700f1868cb808b5ba.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "FastGelu/d=0,p=0/0,2/0,2",
+        "binPath": "ascend310b/fast_gelu/FastGelu_4e343616fbcf642771189f043cfbd000.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "FastGelu/d=1,p=0/0,2/0,2",
+        "binPath": "ascend310b/fast_gelu/FastGelu_4e343616fbcf642771189f043cfbd000.o"
+      }
+    ]
+  }
+}

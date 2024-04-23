@@ -1,0 +1,66 @@
+[
+    {
+        "op": "ClipByValue",
+        "language": "cpp",
+        "input_desc": [
+            {
+                "name": "x",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "fp16",
+                    "fp32",
+                    "int32"
+                ]
+            },
+            {
+                "name": "minv",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "fp16",
+                    "fp32",
+                    "int32"
+                ]
+            },
+            {
+                "name": "maxv",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "fp16",
+                    "fp32",
+                    "int32"
+                ]
+            }
+        ],
+        "output_desc": [
+            {
+                "name": "z",
+                "param_type": "required",
+                "format": [
+                    "ND",
+                    "ND",
+                    "ND"
+                ],
+                "type": [
+                    "fp16",
+                    "fp32",
+                    "int32"
+                ]
+            }
+        ]
+    }
+]

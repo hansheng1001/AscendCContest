@@ -1,0 +1,11 @@
+2024-04-18 05:32:49 [WARNING] [base_model.py:59] - Failed to connect database, please check database of step_trace. 
+2024-04-18 05:32:49 [WARNING] [base_model.py:59] - Failed to connect database, please check database of step_trace. 
+2024-04-18 05:32:49 [INFO] [profiling_scene.py:56] - Current scene of data is based on single_op
+2024-04-18 05:32:49 [WARNING] [event_viewer.py:75] - Unable to get event data.
+2024-04-18 05:32:49 [WARNING] [pipeline_overlap_viewer.py:71] - Both task data and hccl data are missing, no need to calculate the overlap.
+2024-04-18 05:32:49 [INFO] [msprof_job_summary.py:71] - Host data not exists, won't export summary timeline data
+2024-04-18 05:32:51 [WARNING] [base_model.py:63] - Table step_trace_data not found.
+2024-04-18 05:32:51 [WARNING] [base_model.py:63] - Table step_trace_data not found.
+2024-04-18 05:32:51 [INFO] [profiling_scene.py:56] - Current scene of data is based on single_op
+2024-04-18 05:32:51 [WARNING] [meta_condition_manager.py:341] - The accumulated result of comparison fields is equal to 0.
+2024-04-18 05:32:51 [WARNING] [meta_condition_manager.py:341] - The accumulated result of comparison fields is equal to 0.

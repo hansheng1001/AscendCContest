@@ -1,0 +1,38 @@
+{
+  "ClipByValue": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "ClipByValue/d=0,p=0/3,2/3,2/3,2/3,2",
+        "binPath": "ascend310b/clip_by_value/ClipByValue_f8e3faca955f5d8208ed69ab17bcd785.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "ClipByValue/d=1,p=0/3,2/3,2/3,2/3,2",
+        "binPath": "ascend310b/clip_by_value/ClipByValue_f8e3faca955f5d8208ed69ab17bcd785.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "ClipByValue/d=0,p=0/0,2/0,2/0,2/0,2",
+        "binPath": "ascend310b/clip_by_value/ClipByValue_729872a2a3cbd9f8202d2e9568550287.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "ClipByValue/d=1,p=0/0,2/0,2/0,2/0,2",
+        "binPath": "ascend310b/clip_by_value/ClipByValue_729872a2a3cbd9f8202d2e9568550287.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "ClipByValue/d=0,p=0/1,2/1,2/1,2/1,2",
+        "binPath": "ascend310b/clip_by_value/ClipByValue_c4d0e8d1e56772f2daa03aa3d1c21ca2.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "ClipByValue/d=1,p=0/1,2/1,2/1,2/1,2",
+        "binPath": "ascend310b/clip_by_value/ClipByValue_c4d0e8d1e56772f2daa03aa3d1c21ca2.o"
+      }
+    ]
+  }
+}

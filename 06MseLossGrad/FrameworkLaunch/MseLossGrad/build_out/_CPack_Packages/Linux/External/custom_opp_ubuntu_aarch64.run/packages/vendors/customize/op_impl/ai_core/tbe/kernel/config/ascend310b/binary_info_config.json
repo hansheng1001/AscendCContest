@@ -1,0 +1,28 @@
+{
+  "MseLossGrad": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "MseLossGrad/d=0,p=0/1,2/1,2/1,2/1,2",
+        "binPath": "ascend310b/mse_loss_grad/MseLossGrad_d39922bbcdd33a94de9015ce72213c34.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "MseLossGrad/d=1,p=0/1,2/1,2/1,2/1,2",
+        "binPath": "ascend310b/mse_loss_grad/MseLossGrad_d39922bbcdd33a94de9015ce72213c34.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "MseLossGrad/d=0,p=0/0,2/0,2/0,2/0,2",
+        "binPath": "ascend310b/mse_loss_grad/MseLossGrad_78c72dcc185ea1bc91b2ae1453325324.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "MseLossGrad/d=1,p=0/0,2/0,2/0,2/0,2",
+        "binPath": "ascend310b/mse_loss_grad/MseLossGrad_78c72dcc185ea1bc91b2ae1453325324.o"
+      }
+    ]
+  }
+}

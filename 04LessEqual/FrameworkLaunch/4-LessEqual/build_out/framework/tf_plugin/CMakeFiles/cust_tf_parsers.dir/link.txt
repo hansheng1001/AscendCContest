@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -s -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -shared -Wl,-soname,libcust_tf_parsers.so -o libcust_tf_parsers.so CMakeFiles/cust_tf_parsers.dir/tensorflow_less_equal_plugin.cc.o   -L/usr/local/Ascend/ascend-toolkit/latest/lib64  -Wl,-rpath,/usr/local/Ascend/ascend-toolkit/latest/lib64: -lgraph 

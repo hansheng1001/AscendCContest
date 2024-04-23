@@ -1,0 +1,94 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "FastGeluGrad/d=0,p=0/1,2/1,2/1,2",
+        "FastGeluGrad/d=1,p=0/1,2/1,2/1,2"
+      ],
+      "staticKey": "24db4d78a3a31c0287aa11345320c199348443901fef8fe630f68f86fd5dc348",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "dy",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/fast_gelu_grad/FastGeluGrad_1be32c52415bb5be058a7feb0505a8ed.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "FastGeluGrad/d=0,p=0/0,2/0,2/0,2",
+        "FastGeluGrad/d=1,p=0/0,2/0,2/0,2"
+      ],
+      "staticKey": "295935613b943d6a71aa3e5b596ee7da1f284cfde70cbf59960f8c546b5d4d30",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "dy",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/fast_gelu_grad/FastGeluGrad_1faee25121f0603c567cd8b30eaab4a2.json"
+      }
+    }
+  ]
+}

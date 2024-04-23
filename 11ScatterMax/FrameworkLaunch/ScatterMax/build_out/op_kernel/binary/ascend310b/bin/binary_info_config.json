@@ -1,0 +1,48 @@
+{
+  "ScatterMax": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "ScatterMax/d=0,p=0/2,2/3,2/2,2/2,2",
+        "binPath": "ascend310b/scatter_max/ScatterMax_3d7d911d8cfad3e2c32c6677327ba759.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "ScatterMax/d=1,p=0/2,2/3,2/2,2/2,2",
+        "binPath": "ascend310b/scatter_max/ScatterMax_3d7d911d8cfad3e2c32c6677327ba759.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "ScatterMax/d=0,p=0/3,2/3,2/3,2/3,2",
+        "binPath": "ascend310b/scatter_max/ScatterMax_e3bce227480555e6e9f5aebacd1234c6.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "ScatterMax/d=1,p=0/3,2/3,2/3,2/3,2",
+        "binPath": "ascend310b/scatter_max/ScatterMax_e3bce227480555e6e9f5aebacd1234c6.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "ScatterMax/d=0,p=0/1,2/3,2/1,2/1,2",
+        "binPath": "ascend310b/scatter_max/ScatterMax_8056299968bda2315ce2274c56a60a04.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "ScatterMax/d=1,p=0/1,2/3,2/1,2/1,2",
+        "binPath": "ascend310b/scatter_max/ScatterMax_8056299968bda2315ce2274c56a60a04.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "ScatterMax/d=0,p=0/0,2/3,2/0,2/0,2",
+        "binPath": "ascend310b/scatter_max/ScatterMax_604faeb8c553d7941c7b9a2659004714.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "ScatterMax/d=1,p=0/0,2/3,2/0,2/0,2",
+        "binPath": "ascend310b/scatter_max/ScatterMax_604faeb8c553d7941c7b9a2659004714.o"
+      }
+    ]
+  }
+}

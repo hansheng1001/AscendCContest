@@ -1,0 +1,74 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "FastGelu/d=0,p=0/1,2/1,2",
+        "FastGelu/d=1,p=0/1,2/1,2"
+      ],
+      "staticKey": "6ea53f6da880a8179848e8d27d9656470fcc75d7d663e87a5ddd49a942d586d5",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/fast_gelu/FastGelu_5df0e856755d845700f1868cb808b5ba.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "FastGelu/d=0,p=0/0,2/0,2",
+        "FastGelu/d=1,p=0/0,2/0,2"
+      ],
+      "staticKey": "174b597c066dd43443d16f1cbf342fb69d122ca8a248e828c078b208c9bfe6f7",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/fast_gelu/FastGelu_4e343616fbcf642771189f043cfbd000.json"
+      }
+    }
+  ]
+}

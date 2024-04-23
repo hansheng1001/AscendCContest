@@ -1,0 +1,42 @@
+{
+  "op_type": "FastGeluGrad",
+  "op_list": [
+    {
+      "bin_filename": "FastGeluGrad_1be32c52415bb5be058a7feb0505a8ed",
+      "inputs": [
+        {
+          "name": "dy",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "z",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ]
+    }
+  ]
+}

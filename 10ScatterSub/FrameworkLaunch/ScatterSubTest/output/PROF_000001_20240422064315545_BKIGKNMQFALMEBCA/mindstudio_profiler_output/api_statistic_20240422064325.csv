@@ -1,0 +1,17 @@
+Device_id,Level,API Name,Time(us),Count,Avg(us),Min(us),Max(us),Variance
+0,acl,aclCreateDataBuffer,1.563,3,0.521,0.292,0.688,0.028
+0,acl,aclCreateTensorDesc,5.708,3,1.903,0.688,2.542,0.739
+0,acl,aclDestroyTensorDesc,4.0,3,1.333,0.688,2.188,0.397
+0,acl,aclMallocMemInner,2880.831,6,480.139,94.752,1402.133,298085.028
+0,acl,aclnnScatterSub,2567.762,1,2567.762,2567.762,2567.762,0.0
+0,acl,aclnnScatterSubGetWorkspaceSize,173307.128,1,173307.128,173307.128,173307.128,0.0
+0,acl,aclnnScatterSubTiling,2445.655,1,2445.655,2445.655,2445.655,0.0
+0,acl,aclrtCreateStream,2298.381,1,2298.381,2298.381,2298.381,0.0
+0,acl,aclrtDestroyStream,1860.06,1,1860.06,1860.06,1860.06,0.0
+0,acl,aclrtFree,1414.967,6,235.828,57.73,803.642,71486.015
+0,acl,aclrtMalloc,3049.355,6,508.226,110.544,1443.405,306232.125
+0,acl,aclrtMemcpy,433.447,6,72.241,61.085,105.336,242.778
+0,acl,aclrtResetDevice,13914.31,1,13914.31,13914.31,13914.31,0.0
+0,acl,aclrtSetDevice,91568531131.867,1,91568531131.867,91568531131.867,91568531131.867,0.0
+0,acl,aclrtSynchronizeStreamWithTimeout,1755.537,1,1755.537,1755.537,1755.537,0.0
+0,node,launch,2334.444,1,2334.444,2334.444,2334.444,0.0

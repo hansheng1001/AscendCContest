@@ -1,0 +1,28 @@
+{
+  "Spence": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "Spence/d=0,p=0/0,2/0,2",
+        "binPath": "ascend310b/spence/Spence_1b553df3d3306b59b4cdf031bb857cf8.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Spence/d=1,p=0/0,2/0,2",
+        "binPath": "ascend310b/spence/Spence_1b553df3d3306b59b4cdf031bb857cf8.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Spence/d=0,p=0/1,2/1,2",
+        "binPath": "ascend310b/spence/Spence_3d36659ffafd147e5f7fa0f38bf74d95.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "Spence/d=1,p=0/1,2/1,2",
+        "binPath": "ascend310b/spence/Spence_3d36659ffafd147e5f7fa0f38bf74d95.o"
+      }
+    ]
+  }
+}

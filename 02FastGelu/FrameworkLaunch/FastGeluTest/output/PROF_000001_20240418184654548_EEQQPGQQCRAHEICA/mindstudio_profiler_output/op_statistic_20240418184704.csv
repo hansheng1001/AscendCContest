@@ -1,0 +1,2 @@
+Device_id,OP Type,Core Type,Count,Total Time(us),Min Time(us),Avg Time(us),Max Time(us),Ratio(%)
+0,FastGelu,AI_VECTOR_CORE,1,10.063,10.063,10.063,10.063,100.0

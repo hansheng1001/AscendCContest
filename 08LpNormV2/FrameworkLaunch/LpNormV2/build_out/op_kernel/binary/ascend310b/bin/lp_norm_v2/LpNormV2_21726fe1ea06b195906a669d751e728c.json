@@ -1,0 +1,91 @@
+{
+    "binFileName": "LpNormV2_21726fe1ea06b195906a669d751e728c",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "coreType": "VectorCore",
+    "core_type": "AIV",
+    "kernelName": "LpNormV2_21726fe1ea06b195906a669d751e728c",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 80,
+    "parameters": [],
+    "sha256": "7bffb8cf058813916dd82a13df0c117d4ab4e77bf27791313b8cb5b361559400",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    },
+    "kernelList": [
+        {
+            "kernelName": "LpNormV2_21726fe1ea06b195906a669d751e728c_1"
+        },
+        {
+            "kernelName": "LpNormV2_21726fe1ea06b195906a669d751e728c_2"
+        }
+    ],
+    "optionalInputMode": "gen_placeholder",
+    "compileInfo": {},
+    "supportInfo": {
+        "implMode": "",
+        "int64Mode": false,
+        "simplifiedKeyMode": 0,
+        "simplifiedKey": [
+            "LpNormV2/d=0,p=0/1,2/1,2",
+            "LpNormV2/d=1,p=0/1,2/1,2"
+        ],
+        "staticKey": "2a7744b75861bf2ba9fa7fe71322f9859420f933acfb3cab34ff647a84f8a066",
+        "inputs": [
+            {
+                "name": "x",
+                "index": 0,
+                "dtype": "float16",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "name": "y",
+                "index": 0,
+                "dtype": "float16",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "attrs": [
+            {
+                "name": "p",
+                "dtype": "float",
+                "value": 0.0
+            },
+            {
+                "name": "axes",
+                "dtype": "list_int",
+                "value": []
+            },
+            {
+                "name": "keepdim",
+                "dtype": "bool",
+                "value": false
+            },
+            {
+                "name": "epsilon",
+                "dtype": "float",
+                "value": 0.0
+            }
+        ],
+        "opMode": "dynamic",
+        "optionalInputMode": "gen_placeholder",
+        "deterministic": "ignore"
+    }
+}

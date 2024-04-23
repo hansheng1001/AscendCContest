@@ -1,0 +1,79 @@
+{
+    "binFileName": "FastGeluGrad_1faee25121f0603c567cd8b30eaab4a2",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "coreType": "VectorCore",
+    "core_type": "AIV",
+    "kernelName": "FastGeluGrad_1faee25121f0603c567cd8b30eaab4a2",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 56,
+    "parameters": [],
+    "sha256": "fb826b07f89fcaf2b11e03ae181d78bbafa3e97afecb22fe474803c18431cd49",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    },
+    "kernelList": [
+        {
+            "kernelName": "FastGeluGrad_1faee25121f0603c567cd8b30eaab4a2_1"
+        },
+        {
+            "kernelName": "FastGeluGrad_1faee25121f0603c567cd8b30eaab4a2_2"
+        }
+    ],
+    "optionalInputMode": "gen_placeholder",
+    "compileInfo": {},
+    "supportInfo": {
+        "implMode": "",
+        "int64Mode": false,
+        "simplifiedKeyMode": 0,
+        "simplifiedKey": [
+            "FastGeluGrad/d=0,p=0/0,2/0,2/0,2",
+            "FastGeluGrad/d=1,p=0/0,2/0,2/0,2"
+        ],
+        "staticKey": "295935613b943d6a71aa3e5b596ee7da1f284cfde70cbf59960f8c546b5d4d30",
+        "inputs": [
+            {
+                "name": "dy",
+                "index": 0,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "x",
+                "index": 1,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "name": "z",
+                "index": 0,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "opMode": "dynamic",
+        "optionalInputMode": "gen_placeholder",
+        "deterministic": "ignore"
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "binFileName": "MseLossGrad_78c72dcc185ea1bc91b2ae1453325324",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "coreType": "VectorCore",
+    "core_type": "AIV",
+    "kernelName": "MseLossGrad_78c72dcc185ea1bc91b2ae1453325324",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 64,
+    "parameters": [],
+    "sha256": "bebe604ff1f8877c705be550f45b2c3d2ea1c494e2bd6940324913303d92079e",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    },
+    "kernelList": [
+        {
+            "kernelName": "MseLossGrad_78c72dcc185ea1bc91b2ae1453325324_1"
+        },
+        {
+            "kernelName": "MseLossGrad_78c72dcc185ea1bc91b2ae1453325324_2"
+        }
+    ],
+    "optionalInputMode": "gen_placeholder",
+    "compileInfo": {},
+    "supportInfo": {
+        "implMode": "",
+        "int64Mode": false,
+        "simplifiedKeyMode": 0,
+        "simplifiedKey": [
+            "MseLossGrad/d=0,p=0/0,2/0,2/0,2/0,2",
+            "MseLossGrad/d=1,p=0/0,2/0,2/0,2/0,2"
+        ],
+        "staticKey": "9d9d5162655febde50666c41af340689dbd386fb783cc8ab7125e625a0563ebe",
+        "inputs": [
+            {
+                "name": "predict",
+                "index": 0,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "label",
+                "index": 1,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "x",
+                "index": 2,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "name": "z",
+                "index": 0,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "attrs": [
+            {
+                "name": "reduction",
+                "dtype": "str",
+                "value": ""
+            }
+        ],
+        "opMode": "dynamic",
+        "optionalInputMode": "gen_placeholder",
+        "deterministic": "ignore"
+    }
+}

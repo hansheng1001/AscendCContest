@@ -1,0 +1,108 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "MseLoss/d=0,p=0/0,2/0,2/0,2",
+        "MseLoss/d=1,p=0/0,2/0,2/0,2"
+      ],
+      "staticKey": "9bec9c496a247a8c510eaa7b8043a4740cad4bb50695b636d481ce9e01cb1f7e",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "y",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "out",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "reduction",
+          "dtype": "str",
+          "value": ""
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/mse_loss/MseLoss_05a36be398e212d6676104a581c40556.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "MseLoss/d=0,p=0/1,2/1,2/1,2",
+        "MseLoss/d=1,p=0/1,2/1,2/1,2"
+      ],
+      "staticKey": "1cf7a132eadca857cf412c83bc0409f2782b47aa181dbe4b23d2f5c34147faa2",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "y",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "out",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "reduction",
+          "dtype": "str",
+          "value": ""
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/mse_loss/MseLoss_e5b38527ad0231aea944dc0da4441869.json"
+      }
+    }
+  ]
+}

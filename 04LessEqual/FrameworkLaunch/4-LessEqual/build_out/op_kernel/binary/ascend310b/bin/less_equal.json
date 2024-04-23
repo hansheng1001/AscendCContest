@@ -1,0 +1,184 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "LessEqual/d=0,p=0/1,2/1,2/12,2",
+        "LessEqual/d=1,p=0/1,2/1,2/12,2"
+      ],
+      "staticKey": "fab9d5b9e4fa35c3391849330ae71a6f01ffa43837aeb82f1637ceb83fad0571",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "bool",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/less_equal/LessEqual_618d866b56d6a7b84ac354a8bd4c80e9.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "LessEqual/d=0,p=0/2,2/2,2/12,2",
+        "LessEqual/d=1,p=0/2,2/2,2/12,2"
+      ],
+      "staticKey": "8001baa6b9547fc9862f6e9fcb45f2b5eefda8ad94fcda11b3ddaa233080bba5",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "bool",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/less_equal/LessEqual_d41dcd5cb223120be228900a62c71e30.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "LessEqual/d=0,p=0/3,2/3,2/12,2",
+        "LessEqual/d=1,p=0/3,2/3,2/12,2"
+      ],
+      "staticKey": "9dc33a6ceec7529494f7494a321a800197fa6dff1eaa52ae6ac421f2c4851245",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "bool",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/less_equal/LessEqual_92b9c095f157421a5cb0380b027e984e.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "LessEqual/d=0,p=0/0,2/0,2/12,2",
+        "LessEqual/d=1,p=0/0,2/0,2/12,2"
+      ],
+      "staticKey": "2f13550e83999705538acdcd56349dcbceed3b86b99ca3f662e6377ab0004aa3",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "bool",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/less_equal/LessEqual_b616c20e75477e47d2645f96eb8a14cb.json"
+      }
+    }
+  ]
+}

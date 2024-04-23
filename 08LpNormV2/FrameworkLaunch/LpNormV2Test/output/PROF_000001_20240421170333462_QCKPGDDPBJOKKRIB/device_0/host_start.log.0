@@ -1,0 +1,4 @@
+[Device0]
+clock_monotonic_raw: 42377032501461
+cntvct: 2034455978833
+cntvct_diff: 93

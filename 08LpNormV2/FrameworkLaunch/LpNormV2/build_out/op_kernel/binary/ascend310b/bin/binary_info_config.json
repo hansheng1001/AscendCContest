@@ -1,0 +1,28 @@
+{
+  "LpNormV2": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "LpNormV2/d=0,p=0/1,2/1,2",
+        "binPath": "ascend310b/lp_norm_v2/LpNormV2_21726fe1ea06b195906a669d751e728c.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "LpNormV2/d=1,p=0/1,2/1,2",
+        "binPath": "ascend310b/lp_norm_v2/LpNormV2_21726fe1ea06b195906a669d751e728c.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "LpNormV2/d=0,p=0/0,2/0,2",
+        "binPath": "ascend310b/lp_norm_v2/LpNormV2_fdba2d5a48f6c44eb7221a3a4826372e.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "LpNormV2/d=1,p=0/0,2/0,2",
+        "binPath": "ascend310b/lp_norm_v2/LpNormV2_fdba2d5a48f6c44eb7221a3a4826372e.o"
+      }
+    ]
+  }
+}

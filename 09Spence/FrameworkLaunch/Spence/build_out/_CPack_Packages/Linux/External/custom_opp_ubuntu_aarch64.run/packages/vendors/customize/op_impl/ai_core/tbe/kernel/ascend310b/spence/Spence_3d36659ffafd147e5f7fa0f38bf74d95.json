@@ -1,0 +1,69 @@
+{
+    "binFileName": "Spence_3d36659ffafd147e5f7fa0f38bf74d95",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "coreType": "VectorCore",
+    "core_type": "AIV",
+    "kernelName": "Spence_3d36659ffafd147e5f7fa0f38bf74d95",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 56,
+    "parameters": [],
+    "sha256": "f2b0b3c6a68b958c89552d9b1b485a976ea4f3c3a9966071ed8603cd8905ce30",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    },
+    "kernelList": [
+        {
+            "kernelName": "Spence_3d36659ffafd147e5f7fa0f38bf74d95_1"
+        },
+        {
+            "kernelName": "Spence_3d36659ffafd147e5f7fa0f38bf74d95_2"
+        }
+    ],
+    "optionalInputMode": "gen_placeholder",
+    "compileInfo": {},
+    "supportInfo": {
+        "implMode": "",
+        "int64Mode": false,
+        "simplifiedKeyMode": 0,
+        "simplifiedKey": [
+            "Spence/d=0,p=0/1,2/1,2",
+            "Spence/d=1,p=0/1,2/1,2"
+        ],
+        "staticKey": "6ea53f6da880a8179848e8d27d9656470fcc75d7d663e87a5ddd49a942d586d5",
+        "inputs": [
+            {
+                "name": "x",
+                "index": 0,
+                "dtype": "float16",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "name": "y",
+                "index": 0,
+                "dtype": "float16",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "opMode": "dynamic",
+        "optionalInputMode": "gen_placeholder",
+        "deterministic": "ignore"
+    }
+}

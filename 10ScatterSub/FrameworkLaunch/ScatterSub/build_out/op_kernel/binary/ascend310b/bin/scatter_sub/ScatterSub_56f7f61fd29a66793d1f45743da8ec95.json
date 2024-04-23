@@ -1,0 +1,96 @@
+{
+    "binFileName": "ScatterSub_56f7f61fd29a66793d1f45743da8ec95",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "coreType": "VectorCore",
+    "core_type": "AIV",
+    "kernelName": "ScatterSub_56f7f61fd29a66793d1f45743da8ec95",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 72,
+    "parameters": [],
+    "sha256": "d4ea917f9129b9e0ee96832be64b4fe19d696f9fd48f02a6702202d979a1f301",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    },
+    "kernelList": [
+        {
+            "kernelName": "ScatterSub_56f7f61fd29a66793d1f45743da8ec95_1"
+        },
+        {
+            "kernelName": "ScatterSub_56f7f61fd29a66793d1f45743da8ec95_2"
+        }
+    ],
+    "optionalInputMode": "gen_placeholder",
+    "compileInfo": {},
+    "supportInfo": {
+        "implMode": "",
+        "int64Mode": false,
+        "simplifiedKeyMode": 0,
+        "simplifiedKey": [
+            "ScatterSub/d=0,p=0/3,2/3,2/3,2/3,2",
+            "ScatterSub/d=1,p=0/3,2/3,2/3,2/3,2"
+        ],
+        "staticKey": "0f9a560ccae85cdfc339467f8c2d12fb41ef45b32d26d111630a32d0b241fe7f",
+        "inputs": [
+            {
+                "name": "x",
+                "index": 0,
+                "dtype": "int32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "index",
+                "index": 1,
+                "dtype": "int32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "update",
+                "index": 2,
+                "dtype": "int32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "name": "x",
+                "index": 0,
+                "dtype": "int32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "attrs": [
+            {
+                "name": "use_locking",
+                "dtype": "bool",
+                "value": false
+            }
+        ],
+        "opMode": "dynamic",
+        "optionalInputMode": "gen_placeholder",
+        "deterministic": "ignore"
+    }
+}

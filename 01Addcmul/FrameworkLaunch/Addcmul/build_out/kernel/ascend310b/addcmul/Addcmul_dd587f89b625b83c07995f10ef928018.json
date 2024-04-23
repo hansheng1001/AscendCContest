@@ -1,0 +1,99 @@
+{
+    "binFileName": "Addcmul_dd587f89b625b83c07995f10ef928018",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "coreType": "VectorCore",
+    "core_type": "AIV",
+    "kernelName": "Addcmul_dd587f89b625b83c07995f10ef928018",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 56,
+    "parameters": [],
+    "sha256": "33ed2748f280b0c804e2213234b749ba54e1c204f82711f4a471da86f79dec41",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    },
+    "kernelList": [
+        {
+            "kernelName": "Addcmul_dd587f89b625b83c07995f10ef928018_1"
+        },
+        {
+            "kernelName": "Addcmul_dd587f89b625b83c07995f10ef928018_2"
+        }
+    ],
+    "optionalInputMode": "gen_placeholder",
+    "compileInfo": {},
+    "supportInfo": {
+        "implMode": "",
+        "int64Mode": false,
+        "simplifiedKeyMode": 0,
+        "simplifiedKey": [
+            "Addcmul/d=0,p=0/2,2/2,2/2,2/2,2/2,2",
+            "Addcmul/d=1,p=0/2,2/2,2/2,2/2,2/2,2"
+        ],
+        "staticKey": "7205799f302cfc2524b0a41e7960367418ce9bf0ab7f5e94efbdffeb7c77cd0b",
+        "inputs": [
+            {
+                "name": "value",
+                "index": 0,
+                "dtype": "int8",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "input_data",
+                "index": 1,
+                "dtype": "int8",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "x1",
+                "index": 2,
+                "dtype": "int8",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "x2",
+                "index": 3,
+                "dtype": "int8",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "name": "y",
+                "index": 0,
+                "dtype": "int8",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "opMode": "dynamic",
+        "optionalInputMode": "gen_placeholder",
+        "deterministic": "ignore"
+    }
+}

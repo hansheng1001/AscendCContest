@@ -1,0 +1,89 @@
+{
+    "binFileName": "ClipByValue_729872a2a3cbd9f8202d2e9568550287",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "coreType": "VectorCore",
+    "core_type": "AIV",
+    "kernelName": "ClipByValue_729872a2a3cbd9f8202d2e9568550287",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 56,
+    "parameters": [],
+    "sha256": "30d36340433714299724639d890d11a6b330303caeea0964ea6b88bcf0ab532d",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    },
+    "kernelList": [
+        {
+            "kernelName": "ClipByValue_729872a2a3cbd9f8202d2e9568550287_1"
+        },
+        {
+            "kernelName": "ClipByValue_729872a2a3cbd9f8202d2e9568550287_2"
+        }
+    ],
+    "optionalInputMode": "gen_placeholder",
+    "compileInfo": {},
+    "supportInfo": {
+        "implMode": "",
+        "int64Mode": false,
+        "simplifiedKeyMode": 0,
+        "simplifiedKey": [
+            "ClipByValue/d=0,p=0/0,2/0,2/0,2/0,2",
+            "ClipByValue/d=1,p=0/0,2/0,2/0,2/0,2"
+        ],
+        "staticKey": "10ece6b820443a55859e93e431b9869965527700534b902d054c8d6c436c9db4",
+        "inputs": [
+            {
+                "name": "x",
+                "index": 0,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "minv",
+                "index": 1,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "maxv",
+                "index": 2,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "name": "z",
+                "index": 0,
+                "dtype": "float32",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "opMode": "dynamic",
+        "optionalInputMode": "gen_placeholder",
+        "deterministic": "ignore"
+    }
+}

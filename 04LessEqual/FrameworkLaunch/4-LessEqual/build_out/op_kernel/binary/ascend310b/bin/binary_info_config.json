@@ -1,0 +1,48 @@
+{
+  "LessEqual": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "LessEqual/d=0,p=0/1,2/1,2/12,2",
+        "binPath": "ascend310b/less_equal/LessEqual_618d866b56d6a7b84ac354a8bd4c80e9.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "LessEqual/d=1,p=0/1,2/1,2/12,2",
+        "binPath": "ascend310b/less_equal/LessEqual_618d866b56d6a7b84ac354a8bd4c80e9.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "LessEqual/d=0,p=0/2,2/2,2/12,2",
+        "binPath": "ascend310b/less_equal/LessEqual_d41dcd5cb223120be228900a62c71e30.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "LessEqual/d=1,p=0/2,2/2,2/12,2",
+        "binPath": "ascend310b/less_equal/LessEqual_d41dcd5cb223120be228900a62c71e30.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "LessEqual/d=0,p=0/3,2/3,2/12,2",
+        "binPath": "ascend310b/less_equal/LessEqual_92b9c095f157421a5cb0380b027e984e.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "LessEqual/d=1,p=0/3,2/3,2/12,2",
+        "binPath": "ascend310b/less_equal/LessEqual_92b9c095f157421a5cb0380b027e984e.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "LessEqual/d=0,p=0/0,2/0,2/12,2",
+        "binPath": "ascend310b/less_equal/LessEqual_b616c20e75477e47d2645f96eb8a14cb.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "LessEqual/d=1,p=0/0,2/0,2/12,2",
+        "binPath": "ascend310b/less_equal/LessEqual_b616c20e75477e47d2645f96eb8a14cb.o"
+      }
+    ]
+  }
+}
